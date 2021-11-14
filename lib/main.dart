@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:FlutterPlayMedia/ui/page/home_page.dart';
+
+import 'ui/page/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -7,7 +8,5 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) => MaterialApp(
-      home: HomePage()
-  );
+  Widget build(BuildContext context) => MaterialApp(home: HomePage());
 }

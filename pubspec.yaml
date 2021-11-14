@@ -1,4 +1,4 @@
-name: FlutterPlayMedia
+name: flutter_play_media
 description: A new Flutter project.
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +19,10 @@ dependencies:
   chewie: ^1.2.2
 
   # Audio
+  just_audio: ^0.9.17
+  audio_session: ^0.1.6+1
 
+  rxdart: '>=0.26.0 <0.28.0'
 
 dev_dependencies:
   flutter_test:
