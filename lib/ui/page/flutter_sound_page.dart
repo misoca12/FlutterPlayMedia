@@ -160,7 +160,7 @@ class _FlutterSoundState extends State<FlutterSoundPage> with WidgetsBindingObse
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: const Text('Player onProgress'),
+        title: const Text('flutter_sound'),
       ),
       body: makeBody(),
     );

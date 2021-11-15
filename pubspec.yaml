@@ -23,6 +23,7 @@ dependencies:
   audio_session: ^0.1.6+1
   audioplayers: ^0.20.1
   flutter_sound: ^8.3.9
+  soundpool: ^2.2.0
 
   # Other
   rxdart: '>=0.26.0 <0.28.0'
@@ -38,4 +39,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/samples/sample2.aac
-    - assets/samples/dices.m4a
+    - assets/samples/beep.mp3

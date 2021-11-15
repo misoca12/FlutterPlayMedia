@@ -63,9 +63,10 @@ class _AudioplayersState extends State<AudioplayersPage> with WidgetsBindingObse
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('audioplayers'),
+        ),
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -101,7 +102,6 @@ class _AudioplayersState extends State<AudioplayersPage> with WidgetsBindingObse
             ],
           ),
         ),
-      ),
     );
   }
 }

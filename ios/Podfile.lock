@@ -13,6 +13,8 @@ PODS:
   - mobile-ffmpeg-audio (4.4.LTS)
   - path_provider_ios (0.0.1):
     - Flutter
+  - soundpool (0.0.1):
+    - Flutter
   - tau_core (8.3.9)
   - video_player (0.0.1):
     - Flutter
@@ -26,6 +28,7 @@ DEPENDENCIES:
   - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
   - just_audio (from `.symlinks/plugins/just_audio/ios`)
   - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - soundpool (from `.symlinks/plugins/soundpool/ios`)
   - video_player (from `.symlinks/plugins/video_player/ios`)
   - wakelock (from `.symlinks/plugins/wakelock/ios`)
 
@@ -47,6 +50,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/just_audio/ios"
   path_provider_ios:
     :path: ".symlinks/plugins/path_provider_ios/ios"
+  soundpool:
+    :path: ".symlinks/plugins/soundpool/ios"
   video_player:
     :path: ".symlinks/plugins/video_player/ios"
   wakelock:
@@ -60,6 +65,7 @@ SPEC CHECKSUMS:
   just_audio: baa7252489dbcf47a4c7cc9ca663e9661c99aafa
   mobile-ffmpeg-audio: 1e0a053f8a6de57114e50ff48b3a85ff1c60f902
   path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
+  soundpool: c7f4422ca206e77f8900ed3c4ee6a6ff5a0e38a9
   tau_core: f7bbd1c6a632f52c2fa7c14feea385ab966b1e45
   video_player: ecd305f42e9044793efd34846e1ce64c31ea6fcb
   wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f

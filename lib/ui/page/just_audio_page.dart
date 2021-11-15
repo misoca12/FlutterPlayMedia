@@ -74,9 +74,10 @@ class _JustAudioState extends State<JustAudioPage> with WidgetsBindingObserver {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('just_audio'),
+        ),
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -102,7 +103,6 @@ class _JustAudioState extends State<JustAudioPage> with WidgetsBindingObserver {
             ],
           ),
         ),
-      ),
     );
   }
 }
