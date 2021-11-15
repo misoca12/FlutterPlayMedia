@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_play_media/ui/page/audioplayers_page.dart';
 
 import 'chewie_page.dart';
+import 'flutter_sound_page.dart';
 import 'just_audio_page.dart';
 import 'video_player_page.dart';
 
@@ -49,7 +50,10 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.audiotrack),
             title: const Text("flutter_sound"),
-            onTap: () => {},
+            onTap: () => {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => FlutterSoundPage()))
+            },
           ),
           ListTile(
             leading: const Icon(Icons.audiotrack),

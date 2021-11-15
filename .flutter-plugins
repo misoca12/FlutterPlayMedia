@@ -1,6 +1,8 @@
 # This is a generated file; do not edit or check into version control.
 audio_session=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/audio_session-0.1.6+1/
 audioplayers=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.20.1/
+flutter_sound=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_sound-8.3.9/
+flutter_sound_web=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_sound_web-8.3.9/
 just_audio=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/just_audio-0.9.17/
 just_audio_web=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/just_audio_web-0.4.2/
 path_provider=/Users/t-kimura/Library/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.7/
