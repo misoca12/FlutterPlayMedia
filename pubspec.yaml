@@ -21,7 +21,9 @@ dependencies:
   # Audio
   just_audio: ^0.9.17
   audio_session: ^0.1.6+1
+  audioplayers: ^0.20.1
 
+  # Other
   rxdart: '>=0.26.0 <0.28.0'
 
 dev_dependencies:

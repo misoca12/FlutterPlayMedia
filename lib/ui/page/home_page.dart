@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_play_media/ui/page/audioplayers_page.dart';
 
 import 'chewie_page.dart';
 import 'just_audio_page.dart';
@@ -40,7 +41,10 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.audiotrack),
             title: const Text("audioplayers"),
-            onTap: () => {},
+            onTap: () => {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => AudioplayersPage()))
+            },
           ),
           ListTile(
             leading: const Icon(Icons.audiotrack),
